@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+}
+.circle{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 200px 300px;
+    position: absolute;
+    transition: 10s ease-in-out;
+
+}
+.edge1{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 45px;
+    left: -198px;
+    border-radius: 5px;
+}
+
+.edge2{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    left: 127px;
+    top: 45px;
+    border-radius: 5px;
+}
+
+.edge3{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -35px;
+    top: -118px;
+    border-radius: 5px;
+}
+.edge4{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -35px;
+    top: 209px;
+    border-radius: 5px;
+    
+}
+.circle:hover{
+    
+transform: rotate(3600000deg);
+}
